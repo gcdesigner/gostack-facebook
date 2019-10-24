@@ -1,0 +1,22 @@
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background: #3c5b9a;
+  align-items: center;
+}
+
+header img {
+  max-width: 150px;
+}
+
+header>div {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+header>div>span {
+  margin-right: 12px;
+}
