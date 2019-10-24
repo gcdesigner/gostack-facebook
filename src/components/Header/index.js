@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
       <a href="#">
-        <img src="" />
+        <img src={logo} />
       </a>
       <div className="perfil">
         <span>Meu Perfil</span>

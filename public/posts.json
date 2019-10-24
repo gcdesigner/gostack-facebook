@@ -1,15 +1,53 @@
 {
   "posts": [
     {
-      "user": "Gabriel Costa",
-      "user_avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png",
+      "author": {
+        "name": "Gabriel Costa",
+        "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+      },
       "date": "04 Jun 2019",
-      "text": "Pessoal, alguém sabe se a Rocketseat está contratanto?",
+      "content": "Pessoal, alguém sabe se a Rocketseat está contratanto?",
       "comments": [
         {
-          "user": "Diego Fernandes",
-          "user_avatar": "https://avatars0.githubusercontent.com/u/2254731?s=460&v=4",
-          "text": "A Rocketseat está sempre em busca de novoc membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord!"
+          "author": {
+            "name": "Gabriel Costa",
+            "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+          },
+          "content": "A Rocketseat está sempre em busca de novoc membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord!"
+        }
+      ]
+    },
+    {
+      "author": {
+        "name": "Gabriel Costa",
+        "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+      },
+      "date": "04 Jun 2019",
+      "content": "Pessoal, alguém sabe se a Rocketseat está contratanto?",
+      "comments": [
+        {
+          "author": {
+            "name": "Gabriel Costa",
+            "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+          },
+          "content": "A Rocketseat está sempre em busca de novoc membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord!"
+        }
+      ]
+    },
+    {
+      "author": {
+        "name": "Gabriel Costa",
+        "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+      },
+      "date": "04 Jun 2019",
+      "content": "Pessoal, alguém sabe se a Rocketseat está contratanto?",
+      "comments": [
+        {
+          "author": {
+            "name": "Gabriel Costa",
+            "avatar": "https://www.shareicon.net/data/2015/09/18/103157_man_512x512.png"
+          },
+          "content": "A Rocketseat está sempre em busca de novoc membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord!"
         }
       ]
     }
