@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css'
-import avatar from '../../assets/foto-gabriel.jpg'
 
-export default function Comment() {
+export default function Comment({ name, avatar, content }) {
   return (
     <div className="comment">
-      <figure>
-        <img src={avatar} alt="" />
-      </figure>
+      <div className="avatar" style={{ backgroundImage: `url(${avatar})` }}></div>
       <div className="comment-text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores odio aliquam consequatur similique, quas reiciendis minus consequuntur odit obcaecati quasi doloremque corrupti veniam esse? Labore unde sapiente a maiores?</p>
+        <p>
+          <strong>{name}</strong>
+          {content}
+        </p>
       </div>
     </div>
   );

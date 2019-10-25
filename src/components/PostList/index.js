@@ -19,7 +19,7 @@ export default function PostList() {
   return (
     <>
       {posts.map(post => (
-        <Post name={post.author.name} user_avatar={post.author.avatar} date={post.date} content={post.content} />
+        <Post name={post.author.name} user_avatar={post.author.avatar} date={post.date} content={post.content} comments={post.comments} />
       ))}
     </>
   );

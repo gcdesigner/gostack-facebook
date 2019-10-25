@@ -1,16 +1,14 @@
 import React from 'react';
 import './style.css'
-// import avatar from '../../assets/foto-gabriel.jpg'
 
 import Comment from '../Comment'
 
-export default function Post({ user_avatar, name, date, content }) {
+export default function Post({ user_avatar, name, date, content, comments }) {
+
   return (
     <article>
       <div className="meta">
-        <figure>
-          <img src={user_avatar} alt="" />
-        </figure>
+        <div className="avatar" style={{ backgroundImage: `url(${user_avatar})` }}></div>
         <div className="meta-info">
           <h4>{name}</h4>
           <small>{date}</small>
@@ -21,8 +19,9 @@ export default function Post({ user_avatar, name, date, content }) {
         <p>{content}</p>
       </div>
 
-      <Comment />
-      <Comment />
+      {comments.map(comment => (
+        <Comment name={comment.author.name} avatar={comment.author.avatar} content={comment.content} />
+      ))}
     </article>
   );
 }
